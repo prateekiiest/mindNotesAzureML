@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "/anaconda/envs/azureml_py38/bin/python",
+    "azureML.defaultWorkspaceId": "/subscriptions/c01a4630-cc02-4828-9991-41259d9cb1a4/resourceGroups/bot-resource-group/providers/Microsoft.MachineLearningServices/workspaces/MindNotesAnalysis",
+    "jupyter.jupyterServerType": "remote"
+}
