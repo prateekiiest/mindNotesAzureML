@@ -17,7 +17,7 @@
         "df = dataset.to_pandas_dataframe()"
       ],
       "outputs": [],
-      "execution_count": 3,
+      "execution_count": 1,
       "metadata": {}
     },
     {
@@ -30,7 +30,7 @@
         "selfCriticalityDf = jsonData[\"selfCriticalityState\"]\n"
       ],
       "outputs": [],
-      "execution_count": 21,
+      "execution_count": 2,
       "metadata": {}
     },
     {
@@ -41,14 +41,14 @@
       "outputs": [
         {
           "output_type": "execute_result",
-          "execution_count": 22,
+          "execution_count": 3,
           "data": {
             "text/plain": "{'showSelectedMenu': False,\n 'showMainIntro': False,\n 'level1': {'isLocked': False,\n  'responses': {'1': {'answer': '', 'prev': None, 'next': 2},\n   '2': {'answer': '', 'prev': 1, 'next': 3},\n   '3': {'answer': '', 'prev': 2, 'next': 4},\n   '4': {'answer': '', 'prev': 3, 'next': 5},\n   '5': {'answer': '', 'prev': 4, 'next': 6},\n   '6': {'answer': '', 'prev': 5, 'next': 7},\n   '7': {'answer': '', 'prev': 6, 'next': 8},\n   '8': {'answer': 'Almost never', 'prev': 7, 'next': 9},\n   '9': {'answer': '', 'prev': 8, 'next': 10},\n   '10': {'answer': '', 'prev': 9, 'next': 11},\n   '11': {'answer': 'Almost never', 'prev': 10, 'next': 12},\n   '12': {'answer': '', 'prev': 11, 'next': None}},\n  'progressValue': 100},\n 'showBackButtonModal': True,\n 'level2': {'isLocked': False,\n  'responses': {'0': {'answer': ['Wed Feb 10 2021 12:31:16 GMT+0530 (IST)',\n     'Missing the',\n     'This is stressful',\n     \"It's human to make mistakes\",\n     'This is stressful'],\n    'prev': None,\n    'next': None}},\n  'progressValue': 100},\n 'level3': {'isLocked': False,\n  'progressValue': 100,\n  'reminder': 'Yes, twice',\n  'responses': {'0': {'answer': ['Wed Feb 10 2021 12:31:24 GMT+0530 (IST)',\n     '',\n     '',\n     '',\n     ''],\n    'prev': None,\n    'next': None},\n   '1': {'answer': ['Wed Feb 10 2021 12:31:50 GMT+0530 (IST)',\n     'Leytrt to myself'],\n    'prev': None,\n    'next': None},\n   '2': {'answer': ['Wed Feb 10 2021 12:32:28 GMT+0530 (IST)',\n     'Struggles',\n     'Wh',\n     '',\n     '?'],\n    'prev': None,\n    'next': None},\n   '3': {'answer': ['Wed Feb 10 2021 12:33:03 GMT+0530 (IST)',\n     'Dear friend ,testkng'],\n    'prev': None,\n    'next': None}}}}"
           },
           "metadata": {}
         }
       ],
-      "execution_count": 22,
+      "execution_count": 3,
       "metadata": {}
     },
     {
@@ -97,14 +97,18 @@
         "            key_resp = \"Q\"+ \"_\" + ke\n",
         "            localResp = {}\n",
         "            for item in range(len(questionList)):\n",
-        "                localResp[questionList[item]] =  respDict[ke][\"answer\"][item]\n",
+        "                #print( item )\n",
+        "                if (item < len(respDict[ke][\"answer\"])):\n",
+        "                    localResp[questionList[item]] =  respDict[ke][\"answer\"][item]\n",
+        "                else:\n",
+        "                    localResp[questionList[item]] = ''\n",
         "            resp[key_resp] = localResp      \n",
         "        return resp\n",
         "\n",
         "\n"
       ],
       "outputs": [],
-      "execution_count": 24,
+      "execution_count": 4,
       "metadata": {}
     },
     {
@@ -115,32 +119,32 @@
       "outputs": [
         {
           "output_type": "execute_result",
-          "execution_count": 26,
+          "execution_count": 5,
           "data": {
             "text/plain": "100"
           },
           "metadata": {}
         }
       ],
-      "execution_count": 26,
+      "execution_count": 5,
       "metadata": {}
     },
     {
       "cell_type": "code",
       "source": [
-        "checkSCResponses(LevelNumber.level2, selfCriticalityDf)"
+        "checkSCResponses(LevelNumber.level3, selfCriticalityDf)"
       ],
       "outputs": [
         {
           "output_type": "execute_result",
-          "execution_count": 27,
+          "execution_count": 6,
           "data": {
-            "text/plain": "{'Q_0': {'timeOfRecording': 'Wed Feb 10 2021 12:31:16 GMT+0530 (IST)',\n  'Think of a recent situation when you were critical towards yourself. Write down your self critical thoughts': 'Missing the',\n  'ACT1:Mindfulness': 'This is stressful',\n  'ACT2:Common humanity': \"It's human to make mistakes\",\n  'ACT3:Kindness': 'This is stressful'}}"
+            "text/plain": "{'Q_0': {'timeOfRecording': 'Wed Feb 10 2021 12:31:24 GMT+0530 (IST)',\n  'Think of and describe about a current struggle.': '',\n  'Express:Mindfulness': '',\n  'Express:Common humanity': '',\n  'Express:Kindness': ''},\n 'Q_1': {'timeOfRecording': 'Wed Feb 10 2021 12:31:50 GMT+0530 (IST)',\n  'Think of and describe about a current struggle.': 'Leytrt to myself',\n  'Express:Mindfulness': '',\n  'Express:Common humanity': '',\n  'Express:Kindness': ''},\n 'Q_2': {'timeOfRecording': 'Wed Feb 10 2021 12:32:28 GMT+0530 (IST)',\n  'Think of and describe about a current struggle.': 'Struggles',\n  'Express:Mindfulness': 'Wh',\n  'Express:Common humanity': '',\n  'Express:Kindness': '?'},\n 'Q_3': {'timeOfRecording': 'Wed Feb 10 2021 12:33:03 GMT+0530 (IST)',\n  'Think of and describe about a current struggle.': 'Dear friend ,testkng',\n  'Express:Mindfulness': '',\n  'Express:Common humanity': '',\n  'Express:Kindness': ''}}"
           },
           "metadata": {}
         }
       ],
-      "execution_count": 27,
+      "execution_count": 6,
       "metadata": {}
     },
     {
@@ -155,10 +159,13 @@
     "interpreter": {
       "hash": "cd2cf95eab98bc0aed90d7d4dceee09ebf5cdc1e2081a14507931389ba1690a4"
     },
+    "kernel_info": {
+      "name": "python3-azureml"
+    },
     "kernelspec": {
-      "name": "python3",
+      "name": "python3-azureml",
       "language": "python",
-      "display_name": "Python 3"
+      "display_name": "Python 3.6 - AzureML"
     },
     "language_info": {
       "name": "python",
@@ -172,13 +179,10 @@
       "nbconvert_exporter": "python",
       "file_extension": ".py"
     },
-    "orig_nbformat": 4,
-    "kernel_info": {
-      "name": "python3"
-    },
     "nteract": {
       "version": "nteract-front-end@1.0.0"
-    }
+    },
+    "orig_nbformat": 4
   },
   "nbformat": 4,
   "nbformat_minor": 2

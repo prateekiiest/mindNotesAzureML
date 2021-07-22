@@ -18,7 +18,11 @@
       ],
       "outputs": [],
       "execution_count": 1,
-      "metadata": {}
+      "metadata": {
+        "gather": {
+          "logged": 1626966444221
+        }
+      }
     },
     {
       "cell_type": "code",
@@ -31,15 +35,19 @@
       "outputs": [
         {
           "output_type": "execute_result",
-          "execution_count": 9,
+          "execution_count": 2,
           "data": {
-            "text/plain": "{'currentApplicationState': {'shouldShowExpertFre': True,\n  'maxLoginAttempts': 0,\n  'lastTimeStateUpdated': '2021-03-01T12:18:03.599Z',\n  'isNewSession': False,\n  'shouldShowFre': False,\n  'sessionId': '7b1a2915-d74c-4fbd-aed2-b3f096ef44c9',\n  'userId': '5704b8c3-0e67-4127-4d78-08d8cc33525c'},\n 'currentUserState': {'loginState': {'showLoginFre': False,\n   'userInfo': {'scopes': ['https://www.googleapis.com/auth/userinfo.profile',\n     'https://www.googleapis.com/auth/userinfo.email'],\n    'serverAuthCode': None,\n    'idToken': 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImZlZDgwZmVjNTZkYjk5MjMzZDRiNGY2MGZiYWZkYmFlYjkxODZjNzMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzNDczODY2OTY2NTItMHM4MzVlNHY3a2VvYmhmNXU3M2Y2aGtuMDhlMzdjbzkuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIzNDczODY2OTY2NTItMWN0Y3NwbjNqY25waWs2MDg4a2U2N3ZrcGJlbXZrbXYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTI0MzI3ODc5MTA2MjIzNDIzNjQiLCJlbWFpbCI6ImNoYW5kYXJvYjIxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiUm9iIENoYW5kYSIsInBpY3R1cmUiOiJodHRwczovL2xoNC5nb29nbGV1c2VyY29udGVudC5jb20vLU5PUnBLc2VHLWpjL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL0FNWnV1Y2xRNnJubklZY01BLXN1dlRxWloydm9fd0lXekEvczk2LWMvcGhvdG8uanBnIiwiZ2l2ZW5fbmFtZSI6IlJvYiIsImZhbWlseV9uYW1lIjoiQ2hhbmRhIiwibG9jYWxlIjoiZW4iLCJpYXQiOjE2MTQ2MDkxMjgsImV4cCI6MTYxNDYxMjcyOH0.a3AeM5R1XvD9ZsqULyl3xlPima1WqoZ5hB0yNPu8EkgPM0so_QhVvzKn2IEGDfYZTsaRka7q9fkEMx4KIVR3mbbLTAn2JCndOBc5jnxHdCZxR0gPczoBTZ5TfhWcKnZ6nFtE7IK2Z-TNIhCl1OBzmScRSnLVB41AKMuOs8WcMm6sz66-CV4tSO1Kw1gjWvaV_tDIfvoxUU9jFd63BtysT8_qi7qnvAfIwfgBaBtaO3Zb3XEHbkBC_6KxvegEhpEighBxdGGf-jSFkMESYnuIvdnTTBemxunLmGuag6mNxzKH8f5RVIXjwH9-7OEYR6jK04arU6Af9NBX0xGbe-FUCg',\n    'user': {'photo': 'https://lh4.googleusercontent.com/-NORpKseG-jc/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclQ6rnnIYcMA-suvTqZZ2vo_wIWzA/s96-c/photo.jpg',\n     'email': 'chandarob21@gmail.com',\n     'familyName': 'Chanda',\n     'givenName': 'Rob',\n     'name': 'Rob Chanda',\n     'id': '112432787910622342364'}},\n   'loginStatus': True}},\n 'currentHomeScreenState': {'activeSection': {'ActiveCards': []},\n  'copingCrisisSection': {'CopingCrisisCards': []},\n  'homeSectionHeaders': [{'text': 'My Barriers to seek professional help',\n    'itemSection': 'homeBarriersHeader',\n    'colors': ['#D3ECFB', '#D3ECFB', '#D3ECFB'],\n    'locations': [1, 1, 1]},\n   {'text': 'My Self Discovery',\n    'itemSection': 'homeSelfDiscoveryHeader',\n    'colors': ['#FDDAC0', '#FDDAC0'],\n    'locations': [0.51, 0.51]},\n   {'text': 'Our suggestions for you',\n    'itemSection': 'homeInactiveHeader',\n    'colors': ['#ffffff', '#ffffff']}],\n  'inActiveSection': {'InActiveCards': [{'componentKey': 'letsTalk',\n     'title': 'Coping with Crisis',\n     'description': '',\n     'progress': 0,\n     'sectionImageShow': True,\n     'cardImageShow': True,\n     'sectionBodyDescriptionShow': True,\n     'sectionBodyIconShow': True,\n     'goto': 'copingWithCrisis',\n     'themeColor': '#B6AEDA',\n     'sectionHeaderRepresentative': {'text': 'My Coping with Crisis',\n      'itemSection': 'homeCopingCrisisHeader',\n      'colors': ['#E1BBFF', '#E1BBFF'],\n      'locations': [0.51, 0.51]}}]},\n  'barrierSection': {'BarrierCards': [{'componentKey': 'Prefer help from family or friends',\n     'title': 'Prefer help from family or friends',\n     'description': '',\n     'progress': 33.3,\n     'sectionImageShow': True,\n     'cardImageShow': True,\n     'sectionBodyDescriptionShow': True,\n     'sectionBodyIconShow': True,\n     'goto': 'barrierTwoFirst',\n     'themeColor': '#2D9CDB',\n     'progressBackgroundColor': '#D3ECFB'},\n    {'componentKey': 'Prefer help from family or friends',\n     'title': 'Prefer help from family or friends',\n     'description': '',\n     'progress': 33.3,\n     'sectionImageShow': True,\n     'cardImageShow': True,\n     'sectionBodyDescriptionShow': True,\n     'sectionBodyIconShow': True,\n     'goto': 'barrierTwoFirst',\n     'themeColor': '#2D9CDB',\n     'progressBackgroundColor': '#D3ECFB'},\n    {'componentKey': 'Others don’t think it’s a problem',\n     'title': 'Others don’t think it’s a problem',\n     'description': '',\n     'progress': 33.3,\n     'sectionImageShow': True,\n     'cardImageShow': True,\n     'sectionBodyDescriptionShow': True,\n     'sectionBodyIconShow': True,\n     'goto': 'barrierSix',\n     'themeColor': '#2D9CDB',\n     'progressBackgroundColor': '#D3ECFB'}]},\n  'selfDiscoverySection': {'SelfDiscoveryCards': [{'componentKey': 'HOME_SD_LEVEL_1',\n     'title': 'Weight of my problem',\n     'description': '',\n     'progress': 33.3,\n     'sectionImageShow': True,\n     'cardImageShow': True,\n     'sectionBodyDescriptionShow': True,\n     'sectionBodyIconShow': True,\n     'goto': 'sdLevel1',\n     'themeColor': '#FF9A51',\n     'progressBackgroundColor': '#FFD8BB'},\n    {'componentKey': 'HOME_SD_LEVEL_2',\n     'title': 'Familiar stories',\n     'description': '',\n     'progress': 33.3,\n     'sectionImageShow': True,\n     'cardImageShow': True,\n     'sectionBodyDescriptionShow': True,\n     'sectionBodyIconShow': True,\n     'goto': 'sdLevel2',\n     'themeColor': '#FF9A51',\n     'progressBackgroundColor': '#FFD8BB'}]}},\n 'selfDiscoveryState': {'showBackButtonModal': False,\n  'level3': {'isLocked': True,\n   'progressValue': 12.5,\n   'responses': {'GADSectionResponse': {},\n    'PHQSectionResponse': {},\n    'WsasResponse': {}},\n   'homeState': {'anxiousCard': {'completed': False, 'locked': True},\n    'lowCard': {'completed': False, 'locked': True},\n    'functioningCard': {'completed': False, 'locked': True},\n    'result': {'completed': False, 'locked': True},\n    'homeTypeChosen': None}},\n  'showIntro': False,\n  'sdLevel1ReportChosen': 'SECOND_REPORT_CHOSEN',\n  'level1': {'isLocked': False,\n   'responses': {'1': {'answer': 'a week', 'prev': None, 'next': 2},\n    '2': {'answer': 'rarely', 'prev': 1, 'next': 3},\n    '3': {'answer': 'rarely', 'prev': 2, 'next': 4},\n    '4': {'answer': 'not confident at all', 'prev': 3, 'next': None}},\n   'progressValue': 100},\n  'level2': {'progressValue': 12.5,\n   'isLocked': False,\n   'responses': {'VignetteSectionResponse': {},\n    'DiscoveringEmotionResponse': {'quid1': {'answer': {'quid1': {'1': False,\n        '2': False,\n        '3': True,\n        '4': False}},\n      'next': 'quid2',\n      'prev': 'quid1'}}}}},\n 'breakingBarrierState': {'showBackButtonModal': False,\n  'showSelectedMenu': True,\n  'expertVideoWatched': False,\n  'clientVideoWatched': False,\n  'currentBarrierIndex': 0,\n  'barriersState': {'It’s just a passing phase': {'responses': {}},\n   'Prefer help from family or friends': {'responses': {}},\n   'Counselling will mean I’m weak': {'responses': {}},\n   'Afraid how it affects my job or family': {'responses': {}},\n   'Fear of negative labels': {'responses': {}},\n   'Others don’t think it’s a problem': {'responses': {}},\n   'Difficult to get support to seek help': {'responses': {}},\n   'Talking might make it worse': {'responses': {}},\n   'Dislike talking about my feelings': {'responses': {}},\n   'Doubts about treatment options': {'responses': {'Doubts about treatment options': {}}},\n   'Afraid to consult a professional again': {'responses': {}},\n   'Doubtful if therapy helps': {'responses': {}},\n   'I don’t trust therapists': {'responses': {}},\n   'Inaccessibility of services': {'responses': {}},\n   'Professional help is costly': {'responses': {}},\n   'No time to consult': {'responses': {'No time to consult': {}}},\n   'Difficult to leave home': {'responses': {}}},\n  'showIntro': False,\n  'showMenu': False,\n  'completedBarriers': ['Prefer help from family or friends'],\n  'selectedBarriers': ['Others don’t think it’s a problem'],\n  'transitComponentList': ['barrierFeedback', 'barrierExpertVideo']},\n 'copingWithCrisisState': {'showIntro': True,\n  'showBackButtonModal': False,\n  'cclevel1': {'isLocked': False, 'progressValue': 100, 'responses': {}},\n  'cclevel2': {'isLocked': False, 'progressValue': 12.5, 'responses': {}},\n  'cclevel3': {'isLocked': True,\n   'progressValue': 12.5,\n   'responses': {'crisisStoreContact': {},\n    'crisisCreatePlan': {},\n    'crisisSendTrustedPersonMessage': {}}}},\n 'selfCriticalityState': {'showMainIntro': True,\n  'showBackButtonModal': False,\n  'showSelectedMenu': False,\n  'level1': {'isLocked': False, 'progressValue': 12.5, 'responses': {}},\n  'level2': {'isLocked': True, 'progressValue': 12.5, 'responses': {}},\n  'level3': {'isLocked': True,\n   'progressValue': 12.5,\n   'reminder': '',\n   'responses': {}}},\n 'managingWorryState': {'showMainIntro': True,\n  'showBackButtonModal': False,\n  'showSelectedMenu': False,\n  'level1': {'isLocked': False, 'progressValue': 12.5, 'responses': {}},\n  'level2': {'isLocked': True,\n   'progressValue': 12.5,\n   'startDate': '',\n   'endDate': '',\n   'time': '',\n   'duration': '',\n   'responses': {}},\n  'level3': {'isLocked': True, 'progressValue': 12.5, 'responses': {}}},\n 'negativeThoughtsState': {'showMainIntro': True,\n  'showBackButtonModal': False,\n  'showSelectedMenu': False,\n  'level1': {'isLocked': False, 'progressValue': 12.5, 'responses': {}},\n  'level2': {'isLocked': True, 'progressValue': 12.5, 'responses': {}},\n  'level3': {'isLocked': True, 'progressValue': 12.5, 'responses': {}}},\n 'calmingSoothingState': {'showMainIntro': True,\n  'showBackButtonModal': False,\n  'showSelectedMenu': False,\n  'level1': {'isLocked': False, 'progressValue': 12.5, 'responses': {}},\n  'level2': {'isLocked': True, 'progressValue': 12.5, 'responses': {}},\n  'level3': {'isLocked': True,\n   'progressValue': 12.5,\n   'reminder': '',\n   'responses': {}}},\n '_persist': {'version': -1, 'rehydrated': True}}"
+            "text/plain": "{'currentUserState': {'loginState': {'userInfo': {'scopes': ['https://www.googleapis.com/auth/userinfo.profile',\n     'https://www.googleapis.com/auth/userinfo.email'],\n    'serverAuthCode': None,\n    'idToken': 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjFiZjhhODRkM2VjZDc3ZTlmMmFkNWYwNmZmZDI2MDcwMWRkMDZkOTAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzNDczODY2OTY2NTItMHM4MzVlNHY3a2VvYmhmNXU3M2Y2aGtuMDhlMzdjbzkuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIzNDczODY2OTY2NTItMWN0Y3NwbjNqY25waWs2MDg4a2U2N3ZrcGJlbXZrbXYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTI0MzI3ODc5MTA2MjIzNDIzNjQiLCJlbWFpbCI6ImNoYW5kYXJvYjIxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiUm9iIENoYW5kYSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQVRYQUp6YjRDbFdyTmV3eFFtcWlqZ3AtN1dLUGYxLTNwNHhnQkxqclVBcz1zOTYtYyIsImdpdmVuX25hbWUiOiJSb2IiLCJmYW1pbHlfbmFtZSI6IkNoYW5kYSIsImxvY2FsZSI6ImVuIiwiaWF0IjoxNjI2NDEwODIwLCJleHAiOjE2MjY0MTQ0MjB9.nNqZlh8n-Bpl9RbkBDk28TK9TkG7VGNCjmAy_3NyYLGQFc1G9x920pnJzNPlhH_bF3gF-UWfwukkKTD2kFLvnh9SSn_f6vJPSunASzAKlvdcLI4YnL54aSPiCoRXT00PbBj24zR6__C6X7jacR2YULLYoMW8S73P8TISEP8LF9d4E2DfMUd4q2dIYNg4uwGD7LAYO3tgNnP3sIhTWezeXwkq6xaFz2w0lGInDGYPV4omu4bVwCIK2OpvvKzuoF89SYDc4fAvrzn8P-LCaYhK7nwI1PxjlMiIr-PbXsW52tBUrgSTMxwh6XGlK6QWQooLnZ4lJZGOwLoV5cbgwhSVYg',\n    'user': {'photo': 'https://lh3.googleusercontent.com/a/AATXAJzb4ClWrNewxQmqijgp-7WKPf1-3p4xgBLjrUAs=s96-c',\n     'email': 'chandarob21@gmail.com',\n     'familyName': 'Chanda',\n     'givenName': 'Rob',\n     'name': 'Rob Chanda',\n     'id': '112432787910622342364'}},\n   'loginStatus': True,\n   'showLoginFre': False}},\n 'currentApplicationState': {'isExpert': False,\n  'shouldShowExpertFre': True,\n  'maxLoginAttempts': 0,\n  'userJoiningDate': '2021-07-16T04:46:43.397Z',\n  'lastTimeStateUpdated': '2021-07-16T04:46:43.397Z',\n  'isNewSession': False,\n  'shouldShowFre': False,\n  'sessionId': '7b1a2915-d74c-4fbd-aed2-b3f096ef44c9',\n  'userId': '5704b8c3-0e67-4127-4d78-08d8cc33525c'},\n 'currentHomeScreenState': {'activeSection': {'ActiveCards': []},\n  'selfHelpSection': {'SelfHelpCards': []},\n  'copingCrisisSection': {'CopingCrisisCards': []},\n  'barrierSection': {'BarrierCards': [{'componentKey': 'It’s just a passing phase',\n     'title': 'It’s just a passing phase',\n     'description': '',\n     'progress': 100,\n     'sectionImageShow': True,\n     'cardImageShow': True,\n     'sectionBodyDescriptionShow': True,\n     'sectionBodyIconShow': True,\n     'goto': 'barrierOneFirst',\n     'themeColor': '#2D9CDB',\n     'progressBackgroundColor': '#D3ECFB'}]},\n  'homeSectionHeaders': [{'text': 'My Self Discovery',\n    'itemSection': 'homeSelfDiscoveryHeader',\n    'colors': ['#FDDAC0', '#FDDAC0'],\n    'locations': [0.51, 0.51]},\n   {'text': 'My Barriers to seek professional help',\n    'itemSection': 'homeBarriersHeader',\n    'colors': ['#D3ECFB', '#D3ECFB', '#D3ECFB'],\n    'locations': [1, 1, 1]},\n   {'text': 'Our suggestions for you',\n    'itemSection': 'homeInactiveHeader',\n    'colors': ['#ffffff', '#ffffff']}],\n  'inActiveSection': {'InActiveCards': [{'componentKey': 'copingWithCrisis',\n     'title': 'Coping with Crisis',\n     'description': '',\n     'progress': 0,\n     'sectionImageShow': True,\n     'cardImageShow': True,\n     'sectionBodyDescriptionShow': True,\n     'sectionBodyIconShow': True,\n     'goto': 'copingWithCrisis',\n     'themeColor': '#B6AEDA',\n     'sectionHeaderRepresentative': {'text': 'My Coping with Crisis',\n      'itemSection': 'homeCopingCrisisHeader',\n      'colors': ['#E1BBFF', '#E1BBFF'],\n      'locations': [0.51, 0.51]}},\n    {'componentKey': 'selfHelp',\n     'title': 'My Self Help Toolkit',\n     'description': '',\n     'progress': 0,\n     'sectionImageShow': True,\n     'cardImageShow': True,\n     'sectionBodyDescriptionShow': True,\n     'sectionBodyIconShow': True,\n     'goto': 'selfHelp',\n     'themeColor': '#B6AEDA',\n     'sectionHeaderRepresentative': {'text': 'My Self Help Toolkit',\n      'itemSection': 'homeSelfHelpHeader',\n      'colors': ['#7BC197', '#47AAD4'],\n      'locations': [0.51, 0.51]}}]},\n  'selfDiscoverySection': {'SelfDiscoveryCards': [{'componentKey': 'HOME_SD_LEVEL_1',\n     'title': 'Weight of my problem',\n     'description': '',\n     'progress': 100,\n     'sectionImageShow': True,\n     'cardImageShow': True,\n     'sectionBodyDescriptionShow': True,\n     'sectionBodyIconShow': True,\n     'goto': 'sdLevel1',\n     'themeColor': '#FF9A51',\n     'progressBackgroundColor': '#FFD8BB'}]},\n  'exploreSection': {'ExploreCards': [{'componentKey': 'Prefer help from family or friends',\n     'componentName': 'Breaking Barriers',\n     'componentLevelName': 'Prefer help from family or friends',\n     'destination': 'barrierTwoFirst',\n     'themeColor': '#B8E5FF'},\n    {'componentKey': 'Counselling will mean I’m weak',\n     'componentName': 'Breaking Barriers',\n     'componentLevelName': 'Counselling will mean I’m weak',\n     'destination': 'barrierThirdFirst',\n     'themeColor': '#B8E5FF'},\n    {'componentKey': 'Afraid how it affects my job or family',\n     'componentName': 'Breaking Barriers',\n     'componentLevelName': 'Afraid how it affects my job or family',\n     'destination': 'barrierFour',\n     'themeColor': '#B8E5FF'},\n    {'componentKey': 'Fear of negative labels',\n     'componentName': 'Breaking Barriers',\n     'componentLevelName': 'Fear of negative labels',\n     'destination': 'barrierFiveIntro',\n     'themeColor': '#B8E5FF'},\n    {'componentKey': 'Others don’t think it’s a problem',\n     'componentName': 'Breaking Barriers',\n     'componentLevelName': 'Others don’t think it’s a problem',\n     'destination': 'barrierSix',\n     'themeColor': '#B8E5FF'},\n    {'componentKey': 'Difficult to get support to seek help',\n     'componentName': 'Breaking Barriers',\n     'componentLevelName': 'Difficult to get support to seek help',\n     'destination': 'barrierSevenFirst',\n     'themeColor': '#B8E5FF'},\n    {'componentKey': 'Talking might make it worse',\n     'componentName': 'Breaking Barriers',\n     'componentLevelName': 'Talking might make it worse',\n     'destination': 'barrierEightFirst',\n     'themeColor': '#B8E5FF'},\n    {'componentKey': 'Dislike talking about my feelings',\n     'componentName': 'Breaking Barriers',\n     'componentLevelName': 'Dislike talking about my feelings',\n     'destination': 'barrierNineChat',\n     'themeColor': '#B8E5FF'},\n    {'componentKey': 'Doubts about treatment options',\n     'componentName': 'Breaking Barriers',\n     'componentLevelName': 'Doubts about treatment options',\n     'destination': 'barrierTen',\n     'themeColor': '#B8E5FF'},\n    {'componentKey': 'Afraid to consult a professional again',\n     'componentName': 'Breaking Barriers',\n     'componentLevelName': 'Afraid to consult a professional again',\n     'destination': 'barrierEleven',\n     'themeColor': '#B8E5FF'},\n    {'componentKey': 'Doubtful if therapy helps',\n     'componentName': 'Breaking Barriers',\n     'componentLevelName': 'Doubtful if therapy helps',\n     'destination': 'barrierTwelveFirst',\n     'themeColor': '#B8E5FF'},\n    {'componentKey': 'I don’t trust therapists',\n     'componentName': 'Breaking Barriers',\n     'componentLevelName': 'I don’t trust therapists',\n     'destination': 'barrierThirteenIntro',\n     'themeColor': '#B8E5FF'},\n    {'componentKey': 'Inaccessibility of services',\n     'componentName': 'Breaking Barriers',\n     'componentLevelName': 'Inaccessibility of services',\n     'destination': 'barrierFourteen',\n     'themeColor': '#B8E5FF'},\n    {'componentKey': 'Professional help is costly',\n     'componentName': 'Breaking Barriers',\n     'componentLevelName': 'Professional help is costly',\n     'destination': 'barrierFifteen',\n     'themeColor': '#B8E5FF'},\n    {'componentKey': 'No time to consult',\n     'componentName': 'Breaking Barriers',\n     'componentLevelName': 'No time to consult',\n     'destination': 'barrierSixteenFirst',\n     'themeColor': '#B8E5FF'},\n    {'componentKey': 'Difficult to leave home',\n     'componentName': 'Breaking Barriers',\n     'componentLevelName': 'Difficult to leave home',\n     'destination': 'barrierSeventeen',\n     'themeColor': '#B8E5FF'},\n    {'componentKey': 'HOME_SD_LEVEL_2',\n     'componentName': 'Self Discovery',\n     'componentLevelName': 'Familiar stories',\n     'destination': 'sdLevel2',\n     'themeColor': '#F9DAC0'},\n    {'componentKey': 'HOME_SD_LEVEL_3',\n     'componentName': 'Self Discovery',\n     'componentLevelName': 'Rating my state of mind',\n     'destination': 'sdLevel3',\n     'themeColor': '#F9DAC0'}]}},\n 'selfDiscoveryState': {'showBackButtonModal': False,\n  'reportAlgorithmType': 'newAlgorithm',\n  'showIntro': False,\n  'sdLevel1ReportChosen': 'SECOND_REPORT_CHOSEN',\n  'level1': {'isLocked': False,\n   'responses': {'1': {'answer': 'a week', 'prev': None, 'next': 2},\n    '2': {'answer': 'rarely', 'prev': 1, 'next': 3},\n    '3': {'answer': 'rarely', 'prev': 2, 'next': 4},\n    '4': {'answer': 'not confident at all', 'prev': 3, 'next': None}},\n   'progressValue': 100},\n  'savedPostersMySpace': {'level3': [],\n   'level1': [{'reportContent': {'statement': '<p><b>Hmmm…there seems to be a problem but we shall double check as we go along.</b></p>',\n      'descriptionText': 'Please remember, experiencing one or two symptoms by themselves do not equal to a diagnosis.\\nWe are not trying to diagnose your issue. Rather, we aim to understand the nature and severity of the problem. This will help us provide an appropriate and adequate feedback about what you can do to overcome this problem.',\n      'level': 'level1',\n      'isDisclaimer': True,\n      'disclaimerTitle': 'Disclaimer!',\n      'disclaimerBody': 'This feedback is based on a brief screening of your current mood states. Is it only a preliminary evaluation of the severity of your depressive and anxiety symptoms. It does not evaluate any other mental health issues. This screenin is NOT to be used for clinical diagnosis. Please do not consider this feedback as a substitute for consultation with a mental health professional.'},\n     'reportType': 'LEVEL_1_REPORT',\n     'timeofUpdate': '2021-07-16T05:04:43.039Z'}],\n   'level2': [{'reportContent': {'statement': '<b>Hmm, it seems like your concerns may be different from this specific case example. Please continue reading through the remaining examples to see if your concerns  are similar to those.</b>',\n      'descriptionText': 'Please remember, experiencing one or two symptoms by themselves do not equal to a diagnosis. We are not trying to diagnose your issue. Rather, we aim to understand the nature and severity of the problem. This will help us provide an appropriate and adequate feedback about what you can do to overcome this problem.',\n      'level': 'level2',\n      'onPress': {'onPressAction': 'SD_VIGNETTE_SKIP',\n       'onPressPayload': {'vignetteScreenData': {'quid1': {'title': 'STORY ',\n          'image': 8,\n          'descriptionText': 'This is Raghav. Raghav has been feeling sad, dull and miserable for the last 3 months. He has lost interest in many things, including things he used to enjoy before. He feels tired easily, finds it hard to get good sleep and does not feel rested after waking up.\\n\\nHe does not feel like eating. He finds it difficult to make decisions and has to push himself for doing small day-to-day activities. His performance at work is hence getting affected. Raghav keeps thinking about what went wrong in his life. Of late, he has started getting thoughts that things may not get better in the future.',\n          'question': 'How similar is your problem to that of Raghav’s?',\n          'options': ['not at all similar',\n           'slightly similar',\n           'somewhat similar',\n           'very similar'],\n          'progress': 1,\n          'showSkip': True,\n          'next': 'quid4'},\n         'quid4': {'title': 'STORY',\n          'image': 10,\n          'descriptionText': 'Sonal was doing fine till about 6 months ago. For the last 6 months, she finds that she is worried all the time about multiple, small, day-to-day things and feels nervous. Several times, she is not sure what specifically is making her feel tense, at other times, her anxiety is about small matters that did not bother her much earlier.\\n\\nHer family and friends think that there is no major issue to worry about, but she still feels tense most of the time. She is finding it difficult to concentrate/keep her mind focused while working. She is having trouble falling asleep at night, feels sweaty and shaky and on edge several times and is not able to feel at ease or relax.',\n          'question': 'How similar is your problem to that of Sonal’s?',\n          'options': ['not at all similar',\n           'slightly similar',\n           'somewhat similar',\n           'very similar'],\n          'progress': 2,\n          'prev': 'quid1',\n          'next': 'quid2'},\n         'quid2': {'title': 'STORY',\n          'image': 7,\n          'descriptionText': 'Jay was doing reasonably well until about 3 years ago. Though he has been somewhat shy as a person, in the last 3 years he feels more and more anxious in social situations. He has recently been promoted to lead a team. However, he is reluctant to take up this role as it involves conducting meetings, leading a team, making presentations and meeting new people. Jay is not confident of taking up this role. In fact, he is thinking of giving it up.\\n\\nAlthough he is very good with his work, he becomes very nervous in front of others when presenting or even during casual informal interactions. He starts sweating, has increased heart beat, and feels very self-conscious. He feels that everybody is watching him and that he will end up making a fool of himself. He, therefore, prefers to avoid such situations, sitting at the back or leaving functions early to avoid people talking to him.',\n          'question': 'How similar is your problem to that of Jay’s?',\n          'options': ['not at all similar',\n           'slightly similar',\n           'somewhat similar',\n           'very similar'],\n          'progress': 3,\n          'prev': 'quid4',\n          'next': 'quid3'},\n         'quid3': {'title': 'STORY',\n          'image': 6,\n          'descriptionText': 'Rohan had been doing fine in his college work. One fine day without any warning or reason, a feeling of terrible anxiety came crashing down on him. He felt as if he couldn’t get enough air, no matter how hard he breathed. His heart was beating fast and seemed like pounding out of his chest, and he felt as if he might pass out or die.\\n\\nHe was sweating, shaky and felt dizzy. He felt like he had no control over all this and could not think straight. After what seemed like an eternity (actually just a few minutes), his breathing slowed and he eventually felt better. These kinds of attacks started to occur every few days, and since the last two months he has started feeling tense expecting that these might occur any time.',\n          'question': 'How similar is your problem to that of Rohan’s?',\n          'options': ['not at all similar',\n           'slightly similar',\n           'somewhat similar',\n           'very similar'],\n          'progress': 4,\n          'prev': 'quid2',\n          'next': 'quid5'},\n         'quid5': {'title': 'STORY',\n          'image': 9,\n          'descriptionText': 'In the last 1 year, Ravi has been getting feedback that he is taking excessive time to complete his work. Ravi says that he just cannot submit any work that he has not checked thoroughly. He has to check his email responses more than 7-8 times, going over each line to make sure that he has not made an error. He repeatedly checks whether he has turned the computer off after work. If he does not check/reassure himself, he remains preoccupied and anxious and cannot concentrate.\\n\\nHe knows that these doubts are irrational and silly, but he cannot control them. Two years ago, Ravi was facing similar problems though in a different context. He used to get repeated doubts that things he would come in contact with were not clean and he might catch an infection. Hence, he felt compelled to keep washing his hands after touching objects like the mobile or door knob, despite knowing that his doubts were silly.',\n          'question': 'How similar is your problem to that of Ravi’s?',\n          'options': ['not at all similar',\n           'slightly similar',\n           'somewhat similar',\n           'very similar'],\n          'progress': 5,\n          'prev': 'quid3'}},\n        'questionPointer': 'quid4'}}},\n     'timeofUpdate': '2021-07-16T05:05:48.892Z',\n     'reportType': 'LEVEL_2_DEFAULT_REPORT'}]},\n  'level3': {'progressValue': 12.5,\n   'responses': {'GADSectionResponse': {},\n    'PHQSectionResponse': {},\n    'WsasResponse': {}},\n   'homeState': {'anxiousCard': {'completed': False, 'locked': True},\n    'lowCard': {'completed': False, 'locked': True},\n    'functioningCard': {'completed': False, 'locked': True},\n    'result': {'completed': False, 'locked': True},\n    'homeTypeChosen': 'type1'},\n   'isLocked': False},\n  'level2': {'isLocked': False,\n   'responses': {'DiscoveringEmotionResponse': {'quid1': {'answer': {'quid1': {'1': True}},\n      'next': 'quid2',\n      'prev': None}},\n    'VignetteSectionResponse': {'quid1': {'answer': 'not at all similar',\n      'next': 'quid4'}}},\n   'progressValue': 100}},\n 'breakingBarrierState': {'showBackButtonModal': False,\n  'expertVideoWatched': False,\n  'clientVideoWatched': False,\n  'currentBarrierIndex': 0,\n  'savedPosters': [],\n  'barriersState': {'It’s just a passing phase': {'responses': {}},\n   'Prefer help from family or friends': {'responses': {}},\n   'Counselling will mean I’m weak': {'responses': {}},\n   'Afraid how it affects my job or family': {'responses': {}},\n   'Fear of negative labels': {'responses': {}},\n   'Others don’t think it’s a problem': {'responses': {}},\n   'Difficult to get support to seek help': {'responses': {}},\n   'Talking might make it worse': {'responses': {}},\n   'Dislike talking about my feelings': {'responses': {}},\n   'Doubts about treatment options': {'responses': {'Doubts about treatment options': {}}},\n   'Afraid to consult a professional again': {'responses': {}},\n   'Doubtful if therapy helps': {'responses': {}},\n   'I don’t trust therapists': {'responses': {}},\n   'Inaccessibility of services': {'responses': {}},\n   'Professional help is costly': {'responses': {}},\n   'No time to consult': {'responses': {'No time to consult': {}}},\n   'Difficult to leave home': {'responses': {}}},\n  'showIntro': False,\n  'showMenu': False,\n  'showSelectedMenu': False,\n  'completedBarriers': ['It’s just a passing phase',\n   'Prefer help from family or friends'],\n  'selectedBarriers': ['Others don’t think it’s a problem',\n   'Talking might make it worse'],\n  'transitComponentList': ['barrierFeedback']},\n 'copingWithCrisisState': {'showIntro': True,\n  'showBackButtonModal': False,\n  'cclevel1': {'isLocked': False, 'progressValue': 100, 'responses': {}},\n  'cclevel2': {'isLocked': False, 'progressValue': 12.5, 'responses': {}},\n  'cclevel3': {'isLocked': True,\n   'progressValue': 12.5,\n   'responses': {'crisisStoreContact': {},\n    'crisisCreatePlan': {},\n    'crisisSendTrustedPersonMessage': {}}},\n  'savedPostersMySpace': {'cclevel1': [], 'cclevel2': [], 'cclevel3': []}},\n 'selfCriticalityState': {'showMainIntro': True,\n  'showBackButtonModal': False,\n  'showSelectedMenu': False,\n  'level1': {'isLocked': False, 'progressValue': 12.5, 'responses': {}},\n  'level2': {'isLocked': True, 'progressValue': 12.5, 'responses': {}},\n  'level3': {'isLocked': True,\n   'progressValue': 12.5,\n   'reminder': '',\n   'responses': {}}},\n 'managingWorryState': {'showMainIntro': True,\n  'showBackButtonModal': False,\n  'showSelectedMenu': False,\n  'level1': {'isLocked': False, 'progressValue': 12.5, 'responses': {}},\n  'level2': {'isLocked': True,\n   'progressValue': 12.5,\n   'startDate': '',\n   'endDate': '',\n   'time': '',\n   'duration': '',\n   'responses': {}},\n  'level3': {'isLocked': True, 'progressValue': 12.5, 'responses': {}}},\n 'negativeThoughtsState': {'showMainIntro': True,\n  'showBackButtonModal': False,\n  'showSelectedMenu': False,\n  'level1': {'isLocked': False, 'progressValue': 12.5, 'responses': {}},\n  'level2': {'isLocked': True, 'progressValue': 12.5, 'responses': {}},\n  'level3': {'isLocked': True, 'progressValue': 12.5, 'responses': {}}},\n 'managingAngerState': {'showMainIntro': True,\n  'showBackButtonModal': False,\n  'showSelectedMenu': False,\n  'level1': {'isLocked': False, 'progressValue': 12.5, 'responses': {}},\n  'level2': {'isLocked': True, 'progressValue': 12.5, 'responses': {}},\n  'level3': {'isLocked': True, 'progressValue': 12.5, 'responses': {}}},\n 'calmingSoothingState': {'showMainIntro': True,\n  'showBackButtonModal': False,\n  'showSelectedMenu': False,\n  'level1': {'isLocked': False, 'progressValue': 12.5, 'responses': {}},\n  'level2': {'isLocked': True, 'progressValue': 12.5, 'responses': {}},\n  'level3': {'isLocked': True,\n   'progressValue': 12.5,\n   'reminder': '',\n   'responses': {}}},\n 'behaviouralActivationState': {'showMainIntro': True,\n  'showBackButtonModal': False,\n  'showSelectedMenu': False,\n  'level1': {'isLocked': False, 'progressValue': 12.5, 'responses': {}},\n  'level2': {'isLocked': True, 'progressValue': 12.5, 'responses': {}},\n  'level3': {'isLocked': True,\n   'progressValue': 12.5,\n   'reminder': '',\n   'responses': {}}},\n 'managingAnxietyState': {'showMainIntro': True,\n  'showBackButtonModal': False,\n  'showSelectedMenu': False,\n  'level1': {'isLocked': False, 'progressValue': 12.5, 'responses': {}},\n  'level2': {'isLocked': True, 'progressValue': 12.5, 'responses': {}},\n  'level3': {'isLocked': True,\n   'progressValue': 12.5,\n   'reminder': '',\n   'responses': {}}},\n 'professionalConnectUserState': {'allTherapistInformation': [],\n  'conversations': [],\n  'audioConversations': []},\n 'professionalConnectExpertState': {'expertProfileCached': {'therapistId': '',\n   'userEmail': '',\n   'userName': '',\n   'profImage': '',\n   'professionalQualification': '',\n   'affiliationDetails': '',\n   'designation': '',\n   'yearsofExperience': 0,\n   'pastWorkAffiliation': '',\n   'typeofAudience': '',\n   'languagesSpoken': '',\n   'professionalExpertise': '',\n   'messageFromExpert': '',\n   'gender': ''}},\n '_persist': {'version': -1, 'rehydrated': True}}"
           },
           "metadata": {}
         }
       ],
-      "execution_count": 9,
-      "metadata": {}
+      "execution_count": 2,
+      "metadata": {
+        "gather": {
+          "logged": 1626966444416
+        }
+      }
     },
     {
       "cell_type": "code",
@@ -51,14 +59,14 @@
       "outputs": [
         {
           "output_type": "execute_result",
-          "execution_count": 12,
+          "execution_count": 3,
           "data": {
             "text/plain": "{'showBackButtonModal': False,\n 'showSelectedMenu': True,\n 'expertVideoWatched': False,\n 'clientVideoWatched': False,\n 'currentBarrierIndex': 0,\n 'barriersState': {'It’s just a passing phase': {'responses': {}},\n  'Prefer help from family or friends': {'responses': {}},\n  'Counselling will mean I’m weak': {'responses': {}},\n  'Afraid how it affects my job or family': {'responses': {}},\n  'Fear of negative labels': {'responses': {}},\n  'Others don’t think it’s a problem': {'responses': {}},\n  'Difficult to get support to seek help': {'responses': {}},\n  'Talking might make it worse': {'responses': {}},\n  'Dislike talking about my feelings': {'responses': {}},\n  'Doubts about treatment options': {'responses': {'Doubts about treatment options': {}}},\n  'Afraid to consult a professional again': {'responses': {}},\n  'Doubtful if therapy helps': {'responses': {}},\n  'I don’t trust therapists': {'responses': {}},\n  'Inaccessibility of services': {'responses': {}},\n  'Professional help is costly': {'responses': {}},\n  'No time to consult': {'responses': {'No time to consult': {}}},\n  'Difficult to leave home': {'responses': {}}},\n 'showIntro': False,\n 'showMenu': False,\n 'completedBarriers': ['Prefer help from family or friends'],\n 'selectedBarriers': ['Others don’t think it’s a problem'],\n 'transitComponentList': ['barrierFeedback', 'barrierExpertVideo']}"
           },
           "metadata": {}
         }
       ],
-      "execution_count": 12,
+      "execution_count": 3,
       "metadata": {}
     },
     {
@@ -91,7 +99,7 @@
         "\n"
       ],
       "outputs": [],
-      "execution_count": 14,
+      "execution_count": 4,
       "metadata": {}
     },
     {
@@ -102,14 +110,14 @@
       "outputs": [
         {
           "output_type": "execute_result",
-          "execution_count": 17,
+          "execution_count": 5,
           "data": {
             "text/plain": "True"
           },
           "metadata": {}
         }
       ],
-      "execution_count": 17,
+      "execution_count": 5,
       "metadata": {}
     },
     {
@@ -120,14 +128,14 @@
       "outputs": [
         {
           "output_type": "execute_result",
-          "execution_count": 18,
+          "execution_count": 6,
           "data": {
             "text/plain": "False"
           },
           "metadata": {}
         }
       ],
-      "execution_count": 18,
+      "execution_count": 6,
       "metadata": {}
     },
     {
@@ -136,7 +144,7 @@
         "BarrierNoTimeToConsultActivities = checkBarrierResponses('No time to consult')\n"
       ],
       "outputs": [],
-      "execution_count": 19,
+      "execution_count": 7,
       "metadata": {}
     },
     {
@@ -147,7 +155,7 @@
         "    barrierActivityList.append(BarrierNoTimeToConsultActivities[str(activityResponse + 1)]['answer'])"
       ],
       "outputs": [],
-      "execution_count": 20,
+      "execution_count": 8,
       "metadata": {}
     },
     {
@@ -158,14 +166,240 @@
       "outputs": [
         {
           "output_type": "execute_result",
-          "execution_count": 21,
+          "execution_count": 9,
           "data": {
             "text/plain": "[]"
           },
           "metadata": {}
         }
       ],
+      "execution_count": 9,
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "barrierListNames = {}\n",
+        "count =  1\n",
+        "for barrierName in barrierDf[\"barriersState\"].keys():\n",
+        "    barrierListNames[\"BB\"+str(count)] = barrierName\n",
+        "    count += 1\n"
+      ],
+      "outputs": [],
+      "execution_count": 10,
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "barrierListNames"
+      ],
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "execution_count": 11,
+          "data": {
+            "text/plain": "{'BB1': 'It’s just a passing phase',\n 'BB2': 'Prefer help from family or friends',\n 'BB3': 'Counselling will mean I’m weak',\n 'BB4': 'Afraid how it affects my job or family',\n 'BB5': 'Fear of negative labels',\n 'BB6': 'Others don’t think it’s a problem',\n 'BB7': 'Difficult to get support to seek help',\n 'BB8': 'Talking might make it worse',\n 'BB9': 'Dislike talking about my feelings',\n 'BB10': 'Doubts about treatment options',\n 'BB11': 'Afraid to consult a professional again',\n 'BB12': 'Doubtful if therapy helps',\n 'BB13': 'I don’t trust therapists',\n 'BB14': 'Inaccessibility of services',\n 'BB15': 'Professional help is costly',\n 'BB16': 'No time to consult',\n 'BB17': 'Difficult to leave home'}"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 11,
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def checkKeyExists(keyProp, item):\n",
+        "    if keyProp in item.keys():\n",
+        "        return True\n",
+        "    else:\n",
+        "        return False"
+      ],
+      "outputs": [],
+      "execution_count": 12,
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "'''\n",
+        "barrierFinalDf[\"UserId\"] = \"5704b8c3-0e67-4127-4d78-08d8cc33525c\"\n",
+        "barrierFinalDf[\"expertVideoWatched\"] = barrierDf[\"expertVideoWatched\"]\n",
+        "barrierFinalDf[\"clientVideoWatched\"] = barrierDf[\"clientVideoWatched\"]\n",
+        "# saved Posters doesnt exist. Add it later to fix it.\n",
+        "barrierFinalDf[\"completedBarriers\"] = barrierDf[\"completedBarriers\"]\n",
+        "barrierFinalDf[\"selectedBarriers\"] = barrierDf[\"selectedBarriers\"]\n",
+        "'''\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "execution_count": 13,
+          "data": {
+            "text/plain": "'\\nbarrierFinalDf[\"UserId\"] = \"5704b8c3-0e67-4127-4d78-08d8cc33525c\"\\nbarrierFinalDf[\"expertVideoWatched\"] = barrierDf[\"expertVideoWatched\"]\\nbarrierFinalDf[\"clientVideoWatched\"] = barrierDf[\"clientVideoWatched\"]\\n# saved Posters doesnt exist. Add it later to fix it.\\nbarrierFinalDf[\"completedBarriers\"] = barrierDf[\"completedBarriers\"]\\nbarrierFinalDf[\"selectedBarriers\"] = barrierDf[\"selectedBarriers\"]\\n'"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 13,
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "checkKeyExists(\"expertVideoWatched\", barrierDf)"
+      ],
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "execution_count": 15,
+          "data": {
+            "text/plain": "True"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 15,
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "np.nan"
+      ],
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "execution_count": 16,
+          "data": {
+            "text/plain": "nan"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 16,
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "totalEntries = df[\"UserId\"].size\n",
+        "\n",
+        "userList = []\n",
+        "expertVideoList = []\n",
+        "clientVideoList = []\n",
+        "savedPosterList = []\n",
+        "completedBarriersList =[]\n",
+        "selectedBarriersList = []\n",
+        "\n",
+        "\n",
+        "for item in range(totalEntries):\n",
+        "    userList.append(df[\"UserId\"][item])\n",
+        "    jsonData = json.loads(df[\"AppState\"][item])    \n",
+        "    barrierDf = jsonData[\"breakingBarrierState\"]\n",
+        "    expertVideoList.append(barrierDf[\"expertVideoWatched\"])\n",
+        "    clientVideoList.append(barrierDf[\"clientVideoWatched\"])\n",
+        "    if(checkKeyExists(\"savedPosters\", barrierDf) == True):\n",
+        "        savedPosterList.append(barrierDf[\"savedPosters\"])\n",
+        "    else:\n",
+        "        savedPosterList.append(np.nan)\n",
+        "    \n",
+        "    completedBarriersList.append(barrierDf[\"completedBarriers\"])\n",
+        "\n",
+        "    selectedBarriersList.append(barrierDf[\"selectedBarriers\"])\n"
+      ],
+      "outputs": [],
+      "execution_count": 17,
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "# to check if we want to include individual barrier info.\n",
+        "\n",
+        "barrierFinalDf = pd.DataFrame({\"UserId\":userList, \"expertVideoWatched\": expertVideoList, \"clientVideoWatched\":clientVideoList, \"savedPosters\" :savedPosterList, \"completedBarriers\":completedBarriersList, \"selectedBarriers\":selectedBarriersList})"
+      ],
+      "outputs": [],
+      "execution_count": 18,
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "barrierFinalDf"
+      ],
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "execution_count": 19,
+          "data": {
+            "text/html": "<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>UserId</th>\n      <th>expertVideoWatched</th>\n      <th>clientVideoWatched</th>\n      <th>savedPosters</th>\n      <th>completedBarriers</th>\n      <th>selectedBarriers</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>5704b8c3-0e67-4127-4d78-08d8cc33525c</td>\n      <td>False</td>\n      <td>False</td>\n      <td>NaN</td>\n      <td>[Prefer help from family or friends]</td>\n      <td>[Others don’t think it’s a problem]</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>b93d2a00-fe4a-4b0f-4d7a-08d8cc33525c</td>\n      <td>True</td>\n      <td>True</td>\n      <td>NaN</td>\n      <td>[Prefer help from family or friends, It’s just...</td>\n      <td>[Others don’t think it’s a problem, Difficult ...</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>b6a54ac9-3268-4ecb-4d7b-08d8cc33525c</td>\n      <td>False</td>\n      <td>False</td>\n      <td>[]</td>\n      <td>[]</td>\n      <td>[]</td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td>4d65f14e-74b2-4077-4d7e-08d8cc33525c</td>\n      <td>False</td>\n      <td>False</td>\n      <td>[]</td>\n      <td>[]</td>\n      <td>[]</td>\n    </tr>\n    <tr>\n      <th>4</th>\n      <td>46557658-06af-4808-4d7f-08d8cc33525c</td>\n      <td>True</td>\n      <td>True</td>\n      <td>NaN</td>\n      <td>[It’s just a passing phase, Prefer help from f...</td>\n      <td>[Others don’t think it’s a problem, Difficult ...</td>\n    </tr>\n    <tr>\n      <th>5</th>\n      <td>c1f1cfbb-28b0-4788-4d80-08d8cc33525c</td>\n      <td>False</td>\n      <td>False</td>\n      <td>NaN</td>\n      <td>[]</td>\n      <td>[]</td>\n    </tr>\n    <tr>\n      <th>6</th>\n      <td>adeb096a-0090-4191-4d81-08d8cc33525c</td>\n      <td>False</td>\n      <td>False</td>\n      <td>NaN</td>\n      <td>[]</td>\n      <td>[]</td>\n    </tr>\n    <tr>\n      <th>7</th>\n      <td>17cb7b35-4653-4c2f-4d82-08d8cc33525c</td>\n      <td>False</td>\n      <td>False</td>\n      <td>[]</td>\n      <td>[]</td>\n      <td>[]</td>\n    </tr>\n    <tr>\n      <th>8</th>\n      <td>8ab775d5-6848-4687-4d83-08d8cc33525c</td>\n      <td>False</td>\n      <td>False</td>\n      <td>NaN</td>\n      <td>[]</td>\n      <td>[Dislike talking about my feelings, I don’t tr...</td>\n    </tr>\n    <tr>\n      <th>9</th>\n      <td>f1031320-6c06-41bb-4d86-08d8cc33525c</td>\n      <td>False</td>\n      <td>False</td>\n      <td>NaN</td>\n      <td>[Talking might make it worse, Dislike talking ...</td>\n      <td>[Others don’t think it’s a problem]</td>\n    </tr>\n    <tr>\n      <th>10</th>\n      <td>560fce02-1819-4493-4d87-08d8cc33525c</td>\n      <td>False</td>\n      <td>False</td>\n      <td>NaN</td>\n      <td>[]</td>\n      <td>[]</td>\n    </tr>\n    <tr>\n      <th>11</th>\n      <td>3e6c01d2-603b-4553-4d88-08d8cc33525c</td>\n      <td>False</td>\n      <td>False</td>\n      <td>NaN</td>\n      <td>[]</td>\n      <td>[]</td>\n    </tr>\n    <tr>\n      <th>12</th>\n      <td>18570ac4-1dda-46e5-bc91-08d8d6f4dffc</td>\n      <td>False</td>\n      <td>False</td>\n      <td>[]</td>\n      <td>[Others don’t think it’s a problem, Difficult ...</td>\n      <td>[]</td>\n    </tr>\n    <tr>\n      <th>13</th>\n      <td>c88ec046-af5b-42e4-e5a7-08d8deeb08c6</td>\n      <td>False</td>\n      <td>False</td>\n      <td>NaN</td>\n      <td>[]</td>\n      <td>[]</td>\n    </tr>\n    <tr>\n      <th>14</th>\n      <td>474bedfb-bfe7-4fbb-e5a8-08d8deeb08c6</td>\n      <td>False</td>\n      <td>False</td>\n      <td>NaN</td>\n      <td>[]</td>\n      <td>[]</td>\n    </tr>\n    <tr>\n      <th>15</th>\n      <td>e8e95a0c-0267-4201-7b10-08d8f45c19aa</td>\n      <td>False</td>\n      <td>False</td>\n      <td>[]</td>\n      <td>[]</td>\n      <td>[]</td>\n    </tr>\n    <tr>\n      <th>16</th>\n      <td>cfc020c0-1b36-4a41-c041-08d8f98f9467</td>\n      <td>False</td>\n      <td>False</td>\n      <td>[]</td>\n      <td>[]</td>\n      <td>[]</td>\n    </tr>\n    <tr>\n      <th>17</th>\n      <td>214df20d-8b7b-470c-7783-08d9000d5fcd</td>\n      <td>False</td>\n      <td>False</td>\n      <td>[]</td>\n      <td>[]</td>\n      <td>[]</td>\n    </tr>\n    <tr>\n      <th>18</th>\n      <td>5b833480-ed73-40a3-7784-08d9000d5fcd</td>\n      <td>False</td>\n      <td>False</td>\n      <td>[]</td>\n      <td>[]</td>\n      <td>[]</td>\n    </tr>\n  </tbody>\n</table>\n</div>",
+            "text/plain": "                                  UserId  expertVideoWatched  \\\n0   5704b8c3-0e67-4127-4d78-08d8cc33525c               False   \n1   b93d2a00-fe4a-4b0f-4d7a-08d8cc33525c                True   \n2   b6a54ac9-3268-4ecb-4d7b-08d8cc33525c               False   \n3   4d65f14e-74b2-4077-4d7e-08d8cc33525c               False   \n4   46557658-06af-4808-4d7f-08d8cc33525c                True   \n5   c1f1cfbb-28b0-4788-4d80-08d8cc33525c               False   \n6   adeb096a-0090-4191-4d81-08d8cc33525c               False   \n7   17cb7b35-4653-4c2f-4d82-08d8cc33525c               False   \n8   8ab775d5-6848-4687-4d83-08d8cc33525c               False   \n9   f1031320-6c06-41bb-4d86-08d8cc33525c               False   \n10  560fce02-1819-4493-4d87-08d8cc33525c               False   \n11  3e6c01d2-603b-4553-4d88-08d8cc33525c               False   \n12  18570ac4-1dda-46e5-bc91-08d8d6f4dffc               False   \n13  c88ec046-af5b-42e4-e5a7-08d8deeb08c6               False   \n14  474bedfb-bfe7-4fbb-e5a8-08d8deeb08c6               False   \n15  e8e95a0c-0267-4201-7b10-08d8f45c19aa               False   \n16  cfc020c0-1b36-4a41-c041-08d8f98f9467               False   \n17  214df20d-8b7b-470c-7783-08d9000d5fcd               False   \n18  5b833480-ed73-40a3-7784-08d9000d5fcd               False   \n\n    clientVideoWatched savedPosters  \\\n0                False          NaN   \n1                 True          NaN   \n2                False           []   \n3                False           []   \n4                 True          NaN   \n5                False          NaN   \n6                False          NaN   \n7                False           []   \n8                False          NaN   \n9                False          NaN   \n10               False          NaN   \n11               False          NaN   \n12               False           []   \n13               False          NaN   \n14               False          NaN   \n15               False           []   \n16               False           []   \n17               False           []   \n18               False           []   \n\n                                    completedBarriers  \\\n0                [Prefer help from family or friends]   \n1   [Prefer help from family or friends, It’s just...   \n2                                                  []   \n3                                                  []   \n4   [It’s just a passing phase, Prefer help from f...   \n5                                                  []   \n6                                                  []   \n7                                                  []   \n8                                                  []   \n9   [Talking might make it worse, Dislike talking ...   \n10                                                 []   \n11                                                 []   \n12  [Others don’t think it’s a problem, Difficult ...   \n13                                                 []   \n14                                                 []   \n15                                                 []   \n16                                                 []   \n17                                                 []   \n18                                                 []   \n\n                                     selectedBarriers  \n0                 [Others don’t think it’s a problem]  \n1   [Others don’t think it’s a problem, Difficult ...  \n2                                                  []  \n3                                                  []  \n4   [Others don’t think it’s a problem, Difficult ...  \n5                                                  []  \n6                                                  []  \n7                                                  []  \n8   [Dislike talking about my feelings, I don’t tr...  \n9                 [Others don’t think it’s a problem]  \n10                                                 []  \n11                                                 []  \n12                                                 []  \n13                                                 []  \n14                                                 []  \n15                                                 []  \n16                                                 []  \n17                                                 []  \n18                                                 []  "
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 19,
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "local_path = 'Users/v-pratec/data/breakingBarriers.csv'\n",
+        "\n",
+        "barrierFinalDf.to_csv(local_path)"
+      ],
+      "outputs": [],
+      "execution_count": 20,
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "datastore = workspace.get_default_datastore()\n",
+        "# upload the local file from src_dir to the target_path in datastore\n",
+        "datastore.upload(src_dir='Users/v-pratec/data', target_path='Users/v-pratec/data')"
+      ],
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Uploading an estimated of 4 files\n",
+            "Target already exists. Skipping upload for Users/v-pratec/data/.amlignore\n",
+            "Target already exists. Skipping upload for Users/v-pratec/data/.amlignore.amltmp\n",
+            "Target already exists. Skipping upload for Users/v-pratec/data/selfDiscovery.csv\n",
+            "Uploading Users/v-pratec/data/breakingBarriers.csv\n",
+            "Uploaded Users/v-pratec/data/breakingBarriers.csv, 1 files out of an estimated total of 2\n",
+            "Uploaded 1 files\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "execution_count": 21,
+          "data": {
+            "text/plain": "$AZUREML_DATAREFERENCE_a32a05b64eb540c4b479fa81b889fcb2"
+          },
+          "metadata": {}
+        }
+      ],
       "execution_count": 21,
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "barriersDs = Dataset.Tabular.from_delimited_files(datastore.path('Users/v-pratec/data/breakingBarriers.csv'))\n"
+      ],
+      "outputs": [],
+      "execution_count": 22,
       "metadata": {}
     },
     {
@@ -180,10 +414,13 @@
     "interpreter": {
       "hash": "cd2cf95eab98bc0aed90d7d4dceee09ebf5cdc1e2081a14507931389ba1690a4"
     },
+    "kernel_info": {
+      "name": "python3-azureml"
+    },
     "kernelspec": {
-      "name": "python3",
+      "name": "python3-azureml",
       "language": "python",
-      "display_name": "Python 3"
+      "display_name": "Python 3.6 - AzureML"
     },
     "language_info": {
       "name": "python",
@@ -197,13 +434,10 @@
       "nbconvert_exporter": "python",
       "file_extension": ".py"
     },
-    "orig_nbformat": 4,
-    "kernel_info": {
-      "name": "python3"
-    },
     "nteract": {
       "version": "nteract-front-end@1.0.0"
-    }
+    },
+    "orig_nbformat": 4
   },
   "nbformat": 4,
   "nbformat_minor": 2
